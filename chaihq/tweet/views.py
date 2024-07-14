@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Tweet
-from .forms import TweetForm, UserRegistrationForm
+from .forms import TweetForm
+# , UserRegistrationForm
 from django.shortcuts import get_object_or_404, redirect
 
 # Create your views here.
